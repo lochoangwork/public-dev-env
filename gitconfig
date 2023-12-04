@@ -1,0 +1,15 @@
+[user]
+	name = Loc Hoang
+	email = lochoangwork@gmail.com
+[core]
+	editor = vim
+[alias]
+  co = checkout
+  c = commit
+  l = log
+  d = diff --stat
+  dd = diff
+  s = status
+  ss = status --untracked-files=no
+[credential]
+	helper = cache

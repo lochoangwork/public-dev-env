@@ -1,0 +1,30 @@
+{
+  "___c_comment": "may need to set queryDriver to point to gcc/g++ for the C extension if build is weird",
+  "coc":{
+    "preferences": {
+      "useQuickfixForLocations": true,
+      "formatOnSaveFiletypes": [
+        "h",
+        "cpp",
+        "go",
+        "python",
+        "markdown",
+        "javascript",
+        "typescript",
+        "css",
+        "typescriptreact"
+      ]
+    }
+  },
+  "python.formatting.provider": "black",
+  "python.linting.pylintEnabled": true,
+  "pyright.organizeimports.provider": "isort",
+  "clangd.arguments": ["--completion-style=detailed", "--background-index=false"],
+  "coc.preferences.formatOnSaveTimeout": 3000,
+  "coc.preferences.willSaveHandlerTimeout": 3000,
+  "coc.source.emoji.filetypes": ["gitcommit", "markdown"],
+  "nodeArgs": [
+    "--max-old-space-size=512"
+  ],
+  "snippets.ultisnips.pythonPrompt": false
+}

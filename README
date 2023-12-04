@@ -1,0 +1,6 @@
+Various config files to make dev life easier.
+
+
+TMUX-prefix + I to install the plugins for tmux
+PlugInstall to get vim plugins in vim
+CocInstall to get Coc plugins
